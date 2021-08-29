@@ -116,68 +116,43 @@
       }
     }
   }
-  .pagination_prev_next {
-    @include clearfix();
-    //float: left;
-    width: 100%;
-  
-    /* next/previous buttons */
-    &--pager {
-      margin-top: 0em;
-      padding-top: 0em;
-      display: block;
-      padding: 1em 2em;
-      //float: left;
-      width: 100%;
-      font-family: $sans-serif;
-      font-size: $type-size-5;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      color: $muted-text-color;
-      border: 1px solid mix(#000, $border-color, 25%);
-      border-radius: $border-radius;
-  
-      .prev_next {
-        font-family: $cute;
-        color:#ffd861;
-      }
-  // /* next/previous buttons */
-  // &--pager {
-  //   display: block;
-  //   padding: 1em 2em;
-  //   float: left;
-  //   width: 50%;
-  //   font-family: $sans-serif;
-  //   font-size: $type-size-5;
-  //   font-weight: bold;
-  //   text-align: center;
-  //   text-decoration: none;
-  //   color: $muted-text-color;
-  //   border: 1px solid mix(#000, $border-color, 25%);
-  //   border-radius: $border-radius;
 
-  //   &:hover {
-  //     @include yiq-contrasted($muted-text-color);
-  //   }
+  /* next/previous buttons */
+  &--pager {
+    display: block;
+    padding: 1em 2em;
+    float: left;
+    width: 50%;
+    font-family: $sans-serif;
+    font-size: $type-size-5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: $muted-text-color;
+    border: 1px solid mix(#000, $border-color, 25%);
+    border-radius: $border-radius;
 
-  //   &:first-child {
-  //     border-top-right-radius: 0;
-  //     border-bottom-right-radius: 0;
-  //   }
+    &:hover {
+      @include yiq-contrasted($muted-text-color);
+    }
 
-  //   &:last-child {
-  //     margin-left: -1px;
-  //     border-top-left-radius: 0;
-  //     border-bottom-left-radius: 0;
-  //   }
+    &:first-child {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
 
-  //   &.disabled {
-  //     color: rgba($muted-text-color, 0.5);
-  //     pointer-events: none;
-  //     cursor: not-allowed;
-  //   }
-  // }
+    &:last-child {
+      margin-left: -1px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    &.disabled {
+      color: rgba($muted-text-color, 0.5);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+  }
 }
 
 .page__content + .pagination,
@@ -593,6 +568,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }
