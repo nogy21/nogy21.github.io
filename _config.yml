@@ -191,6 +191,11 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
 # Markdown Processing
 kramdown:
   input: GFM
@@ -277,3 +282,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
