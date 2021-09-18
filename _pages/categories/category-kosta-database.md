@@ -1,10 +1,10 @@
 ---
-title: "코드업 기초"
+title: "KOSTA Database"
 layout: archive
-permalink: categories/codeup
+permalink: categories/database
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.CodeUp %}
+{% assign posts = site.categories.Database %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

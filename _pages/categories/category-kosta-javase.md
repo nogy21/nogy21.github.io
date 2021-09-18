@@ -1,10 +1,10 @@
 ---
-title: "백준 알고리즘"
+title: "KOSTA JavaSE"
 layout: archive
-permalink: categories/baekjoon
+permalink: categories/javase
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Cpp %}
+{% assign posts = site.categories.JavaSE %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
