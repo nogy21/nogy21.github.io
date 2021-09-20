@@ -510,6 +510,10 @@ body {
   }
 }
 
+.utterances {
+  max-width: 100% !important;
+}
+
 /*
    Related
    ========================================================================== */
@@ -566,8 +570,4 @@ body {
       padding-right: 0;
     }
   }
-}
-
-.utterances {
-  max-width: 100% !important;
 }
