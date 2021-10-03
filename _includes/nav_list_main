@@ -60,7 +60,7 @@
                 {% endfor %}
             </ul>
       </li>
-      <span class="nav__sub-title">Java</span>
+      <!-- <span class="nav__sub-title">Java</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "java" %}
@@ -86,6 +86,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
+      </li> -->
   </ul>
 </nav>
