@@ -1,8 +1,8 @@
 ---
 title: "WEB(14) - 미니프로젝트 - 회원관리 시스템(2) - 수업 45일차"
 
-date: 2021-10-10
-last_modified_at: 2021-10-10
+date: 2021-10-11
+last_modified_at: 2021-11-14
 
 
 categories:
