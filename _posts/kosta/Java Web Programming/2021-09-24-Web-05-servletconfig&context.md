@@ -87,7 +87,9 @@ Servlet 인터페이스는 이러한 초기화 작업을 하는 메서드를 정
 
 Servlet API 역시 Servlet Interface(Servlet, ServletRequest, ServletResponse, HttpSession 등)들을 중심으로 정의하여 실제 구현 클래스들은 개별 WAS 제품군에서 정의합니다.
 
-<p align="center"><img src="C:\Users\Yong Lee\AppData\Roaming\Typora\typora-user-images\image-20210925205805496.png" alt="image-20210925205805496" style="zoom:60%;" /></p>
+<img src="https://user-images.githubusercontent.com/70495425/142210999-acf44c8c-723e-420d-9dbc-3ccd0b5afbf0.png" alt="image" style="zoom:80%;" />
+
+
 
 <br>이러한 설계를 통해 다형성을 적용할 수 있습니다.<br>
 
