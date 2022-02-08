@@ -2,7 +2,7 @@
 title: "Comparable, Comparator"
 
 date: 2022-02-07
-last_modified_at: 2021-02-07
+last_modified_at: 2021-02-08
 
 categories:
   - Java
@@ -195,24 +195,26 @@ class ComparatorTest {
 결과는 다음과 같습니다.
 
 ```
-Sorted by rating
-8.3 Force Awakens 2015
-8.4 Return of the Jedi 1983
-8.7 Star Wars 1977
-8.8 Empire Strikes Back 1980
+Sorting by Name
+106 Ajay 27
+105 Jai 21
+101 Vijay 23
 
-Sorted by name
-Empire Strikes Back 8.8 1980
-Force Awakens 8.3 2015
-Return of the Jedi 8.4 1983
-Star Wars 8.7 1977
-
-Sorted by year
-1977 8.7 Star Wars 
-1980 8.8 Empire Strikes Back 
-1983 8.4 Return of the Jedi 
-2015 8.3 Force Awakens
+Sorting by Age       
+105 Jai 21
+101 Vijay 23
+106 Ajay 27
 ```
+
+<br>
+
+> ### 참고
+
+[Difference between Comparable and Comparator - javatpoint](https://www.javatpoint.com/difference-between-comparable-and-comparator)
+
+[자바 [JAVA] - Comparable 과 Comparator의 이해](https://st-lab.tistory.com/243)
+
+
 
 ---
 
