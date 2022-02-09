@@ -1,12 +1,12 @@
 ---
-title: "Retrospective - 세미 프로젝트 회고"
+title: "세미 프로젝트 회고"
 
 date: 2021-11-13
 last_modified_at: 2021-11-13
 
 
 categories:
-  - Java Web Programming
+  - Retrospective
 
 tags:
   - [kosta, "세미 프로젝트", project]
@@ -16,7 +16,9 @@ tags:
 목차
 
 * [돌아보기에 앞서](#돌아보기에-앞서)
+
 * [첫 세미 프로젝트](#첫-세미-프로젝트)
+  
   * [좋았던 점](#)
   * [아쉬운 점](#)
   * [스스로에 대한 평가](#스스로에 대한 평가)
@@ -107,15 +109,8 @@ tags:
 
 <br>
 
-
-
-
-
-
-
 ---
 
 <p align="center"><img src="https://user-images.githubusercontent.com/70495425/131689647-b4d2206e-7ec4-4f7f-a734-6c3bf77c80c3.png" height="10%" width="10%"></p>
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
-
