@@ -1,5 +1,5 @@
 ---
-title: "Java의 실행 과정"
+title: "Java 실행 과정"
 
 date: 2022-03-16
 last_modified_at: 2021-03-16
@@ -8,7 +8,7 @@ categories:
   - Java
 
 tags:
-  - ["컴파일 언어", "인터프리터 언]
+  - ["컴파일 언어", "인터프리터 언어"]
 
 ---
 
@@ -48,15 +48,13 @@ tags:
 
 _(이미지 출처: [Execution Process of Java Program in Detail](https://simplesnippets.tech/execution-process-of-java-program-in-detail-working-of-just-it-time-compiler-jit-in-detail/))_
 
-
-
  우선 개발자가 코드를 작성하면, 자바 컴파일러(JDK에 포함된 자바 컴파일러, `javac`)가 소스 코드(`.java`) 파일을 JVM이 이해할 수 있는 바이트코드(`.class`)로 변환합니다. 이 과정을 컴파일 과정이라고 합니다. 
 
  그리고 바이트코드로 변환된 파일은 JVM을 통해 실행되는데, JVM 내의 `Class Loader`가 런타임 시점에 바이트 코드를 메모리에 끌어올립니다. 
 
 - _Class Loader_: 클래스 파일을 로드하고, 검증 과정과 변수와 클래스를 초기화하고 메모리에 할당하는 역할 수행
-
- 이후 실행 엔진을 통해 바이트코드를 OS가 이해할 수 있는 기계어로 해석되고, 명령어 단위로 실행됩니다.(_동일한 바이트코드를 JVM이 OS에 맞게 해석해서 실행하기 때문에 'Java는 플랫폼에 독립적이다'라는 특징이 있습니다_) 그리고 바이트코드를 해석하는 과정은 `Interpreter` 방식과 `JIT Compiler` 방식이 있습니다.
+  
+  이후 실행 엔진을 통해 바이트코드를 OS가 이해할 수 있는 기계어로 해석되고, 명령어 단위로 실행됩니다.(_동일한 바이트코드를 JVM이 OS에 맞게 해석해서 실행하기 때문에 'Java는 플랫폼에 독립적이다'라는 특징이 있습니다_) 그리고 바이트코드를 해석하는 과정은 `Interpreter` 방식과 `JIT Compiler` 방식이 있습니다.
 
 - Interpreter: 명령어를 하나씩 읽어서 해석하고, 같은 코드도 매번 해석해야 하기에 속도가 느리다.
 
