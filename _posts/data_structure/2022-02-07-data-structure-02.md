@@ -1,5 +1,5 @@
 ---
-title: "자바로 구현하고 배우는 자료구조 - 2"
+title: "자바의 특성과 알고리즘 기본 - 2"
 
 date: 2022-02-07
 last_modified_at: 2022-02-09
@@ -9,16 +9,26 @@ categories:
   - DataStructure
 
 tags:
-  - ["부스트코", "자료구조", "자바 특"]
+  - ["자바로 구현하고 배우는 자료구조", "부스트코스"]
 
 ---
 
+<br>
+
+목차
+
 - [자바 특성 및 알고리즘 기본](#자바-특성-및-알고리즘-기본)
+  
   - [객체지향 프로그래밍](#객체지향-프로그래밍)
+  
   - [Comparable 인터페이스](#Comparable-인터페이스)
+  
   - [제너릭 프로그래밍](#제너릭-프로그래밍)
+  
   - [매개변수화 타입](#매개변수화-타입)
+  
   - [Autoboxing](#Autoboxing)
+  
   - [예외](#예외)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/70495425/131687801-2b295fb7-6e22-4e70-a1ef-a7dc85b96796.png" alt="sun cloud" height="10%" width="10%" /></p>

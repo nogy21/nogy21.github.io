@@ -1,5 +1,5 @@
 ---
-title: "자바로 구현하고 배우는 자료구조 - 1"
+title: "자바의 특성과 알고리즘 기본 - 1"
 
 date: 2022-02-04
 last_modified_at: 2022-02-04
@@ -9,17 +9,17 @@ categories:
   - DataStructure
 
 tags:
-  - ["부스트코", "자료구조", "복잡성"]
+  - ["자바로 구현하고 배우는 자료구조", "부스트코스"]
 
 ---
+
+<br>
 
 목차
 
 - [소개](#소개)
 * [자바 특성 및 알고리즘 기본](#자바-특성-및-알고리즘-기본)    
   * [시간 복잡도](#시간-복잡도)
-
-
 
 <p align="center"><img src="https://user-images.githubusercontent.com/70495425/131687801-2b295fb7-6e22-4e70-a1ef-a7dc85b96796.png" alt="sun cloud" height="10%" width="10%" /></p>
 
