@@ -84,8 +84,6 @@ _(이미지 출처: [Execution Process of Java Program in Detail](https://simple
 
 > ### 참고
 
-[자바 [JAVA] - Comparable 과 Comparator의 이해](https://st-lab.tistory.com/243)
-
 [JAVA1 - 4.2. 실행 - Java의 동작원리 - YouTube](https://www.youtube.com/watch?v=9V0rdrm59X4)
 
 [[객체 중심 Java] #03 1장 - Java 프로그램의 실행과정 이해 - YouTube](https://www.youtube.com/watch?v=8uPwUnQw14I)
