@@ -26,31 +26,19 @@ tags:
 
 `Comparable`과 `Comparator` 모두 인터페이스로, <u>객체를 비교할 수 있도록 메서드</u>를 제공하고 있습니다. 그리고 <u>객체를 정렬하기 위해</u> 많이 사용되고 있습니다.
 
-  
-
 두 인터페이스의 비교에 앞서 자바로 배우는 자료구조 수업을 들으면서 `Comparable` 인터페이스에 대해 알아봤었고, 동등연산자(`==`)와 `equals()` 메서드의 사용을 살펴본 적이 있습니다. 
 
 - 동등연산자`==`: 주소값을 비교하며 기본형(Primitive Type)을 대상으로 적용(_객체 유형은 동일한 유형에 한해 적용이 가능_)
 
 - `equals()`: 객체의 내용물을 비교하며 참조형(Reference Type)을 대상으로 적용
 
-  
-
 그리고 `compareTo(T o)` 메서드는 `Interface Comparable<T>`가 구현되어 있는 객체에서 사용 가능한 메서드로, 자기 자신과 매개변수로 전달받은 객체를 비교해서 <u>자신의 값이 작다면 음수, 같다면 0, 크다면 양수를 반환하는 형태</u>를 보였습니다.
 
-  
-
-이러한 `compareTo(T o)` 메서드를 오버라이드하면 사용자가 정의한 기준에 따라 정렬 기능을 사용할 수 있습니다. `Comparator` 인터페이스 역시 `complare(T o1, T o2)` 메서드가 두 매개변수 객체를 비교하는 기능을 제공해주기에 오버라이드를 통해 정렬 기능에 자주 사용됩니다.
-
-  
+이러한 `compareTo(T o)` 메서드를 오버라이드하면 사용자가 정의한 기준에 따라 정렬 기능을 사용할 수 있습니다. `Comparator` 인터페이스 역시 `compare(T o1, T o2)` 메서드가 두 매개변수 객체를 비교하는 기능을 제공해주기에 오버라이드를 통해 정렬 기능에 자주 사용됩니다.
 
 차이점이라면 `Comparable`은 자기 자신과 매개변수 객체를 비교하고, `Comparator`는 두 매개변수 객체를 비교하며, 구현 방법에서도 차이를 보입니다.
 
-  
-
 두 수의 비교 결과에 따른 정렬 기능 작동 방식은, <u>음수 또는 0의 경우 변화가 없고, 양수일 경우 두 원소의 위치를 바꾸게</u> 합니다.(_참고로 정렬은 별도의 설정이 없다면 오름차순을 기준으로 합니다._)
-
-  
 
 먼저 `Comparable` 인터페이스를 활용한 예제를 살펴보겠습니다.
 
@@ -190,8 +178,6 @@ class ComparatorTest {
 
 `compare()` 메서드는 2개의 인자를 필요로 합니다. `sort()` 메서드를 사용할 때에 `Collection` 타입의 인자만이 아니라, `Comparator`인터페이스를 구현한 클래스의 인스턴스를 함께 인자로 넣어준 뒤 정렬을 하면, 사용자가 정의한 기준에 따라 정렬이 되어 출력이 되는것을 확인할 수 있습니다. 
 
-
-
 결과는 다음과 같습니다.
 
 ```
@@ -213,8 +199,6 @@ Sorting by Age
 [Difference between Comparable and Comparator - javatpoint](https://www.javatpoint.com/difference-between-comparable-and-comparator)
 
 [자바 [JAVA] - Comparable 과 Comparator의 이해](https://st-lab.tistory.com/243)
-
-
 
 ---
 
