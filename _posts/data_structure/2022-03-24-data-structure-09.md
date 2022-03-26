@@ -2,7 +2,7 @@
 title: "트리 응용(AVL & RB)(2)"
 
 date: 2022-03-24
-last_modified_at: 2022-03-25
+last_modified_at: 2022-03-26
 
 
 categories:
@@ -253,8 +253,39 @@ public void rotate(Node<K,V> node){ // 문제 발생 노드를 매개변수로
 }
 ```
 
+레드 블랙 트리에서 좌측 회전을 하는 코드는 다음과 같습니다. 힙 & 트리 기본 1-16강에서 배운 좌측 회전 코드와 유사합니다. 다만, parent 노드를 가리키는 포인터와 isLeftChild 변수를 추가로 사용하기 때문에 이들을 고려해주어야 합니다.
 
-<br>
+```java
+// 좌측 회전: 조부모 노드를 부모 노드의 왼쪽 자식 노드 위치로 옮깁니다.
+public void leftRotate (Node<K,V> node){
+    Node<K,V> temp = node.right;
+    node.right = temp.left;
+    // 부모 노드 node.right가 temp가 되면서 조부모 노드가 없어집니다.
+    if(node.right != null) {
+        node.right.parent = null;
+        node.right.isLeftChild = false;
+    }
+    // node가 루트인 경우
+    if(node.parent == null) {
+        root = temp;
+        temp.parent = null;
+    }
+    // node가 루트가 아닌 경우
+    else {
+        temp.parent = node.parent;
+        if(node.isLeftChild) {
+            temp.isLeftChild = true;
+            temp.parent.left = temp;
+        } else {            
+            temp.isLeftChild = false;
+            temp.parent.right = temp;
+        }
+        temp.left = node;
+        node.isLeftChild = true;
+        node.parent = temp;
+    }
+}
+```
 
 <br>
 
