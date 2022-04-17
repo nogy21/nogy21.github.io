@@ -71,7 +71,7 @@ _(이미지 출처: [Execution Process of Java Program in Detail](https://simple
 1. 자바 소스코드(`.java`) 작성
 
 2. 자바 컴파일러(`javac`)가 소스코드를 바이트코드(`.class`) 파일로 변환
-   (개발자가 IDE를 사용해 코드를 작성한 뒤 저장을 하면 자동으로 클래스 파일을 생성)
+   (개발자가 IDE를 사용해 코드를 작성한 뒤 빌드를 누르면 IDE는 내부적으로 `javac` 명령어로 컴파일러를 실행하여 `.class` 파일 생성)
 
 3. JVM 구동 명령어에 의해 JVM에 전달
    (IDE에서 실행 버튼을 누르면 JVM의 클래스 로더에 바이트 코드가 전달됨)
